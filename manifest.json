@@ -5,29 +5,24 @@
       "strict_min_version": "48.0"
     }
   },
-
-  "manifest_version": 2,
-  "name": "wxIF",
-  "version": "0.1",
+  "author": "Gian-Carlo Pascutto & Martin Baranski",
+  "background": {
+    "scripts": ["backgroundscript.js"]
+  },
   "default_locale": "en",
-
   "description": "__MSG_extensionDescription__",
   "homepage_url": "https://github.com/gcp/wxif",
-
   "icons": {
     "16": "icons/fxif.png",
     "32": "icons/fxif.png",
     "48": "icons/fxif.png",
     "96": "icons/fxif.png"
   },
-
+  "manifest_version": 2,
+  "name": "wxIF",
   "permissions": [
-    "<all_urls>",
-    "contextMenus",
-    "activeTab"
+    "activeTab",
+    "contextMenus"
   ],
-
-  "background": {
-    "scripts": ["backgroundscript.js"]
-  }
+  "version": "0.3"
 }
