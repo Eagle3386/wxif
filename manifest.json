@@ -5,7 +5,7 @@
       "strict_min_version": "48.0"
     }
   },
-  "author": "Gian-Carlo Pascutto & Martin Baranski",
+  "author": "Gian-Carlo Pascutto & contributors",
   "background": {
     "scripts": ["backgroundscript.js"]
   },
